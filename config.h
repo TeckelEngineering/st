@@ -95,7 +95,7 @@ unsigned int tabspaces = 8;
 
 /* bg opacity */
 
-float alpha = 0.9;
+float alpha = 1.0;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
@@ -126,8 +126,8 @@ static const char *colorname[] = {
 	"#555555",
 	"gray90", /* default foreground colour */
 	"black", /* default background colour */
-	"#3b5249", /* feldgrau */
-	"#a4b494", /* sage */
+	"#24283b", /* storm */
+	"#c0caf5", /* Terminal White */
 };
 
 
